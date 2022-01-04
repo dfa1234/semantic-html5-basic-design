@@ -6,18 +6,38 @@
 
     <title>Static HTML5 Website</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html,
+      body {
+        background: #eee;
+        color: #444;
+      }
+
+      body {
+        margin: 40px auto;
+        max-width: 650px;
+        line-height: 1.6;
+        font-size: 18px;
+        padding: 0 10px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+    </style>
   </head>
 
   <body>
     <header>
       <h1>Building static website using html5 semantics</h1>
-      <aside>Subtitles can be put in aside tag like this</aside>
+      <aside>Good design is as little design as possible</aside>
     </header>
 
     <h2>Why it matters</h2>
 
-    <h3>Advantages of sticking to basic design</h3>
+    <h3>Advantages</h3>
 
     <ul>
       <li>Lightweight and loads fast</li>
@@ -92,7 +112,8 @@
     </p>
 
     <blockquote cite="https://www.bobrosslipsum.com/">
-      "We don't make mistakes, just happy little accidents."<br />
+      "We don't make mistakes, just happy little accidents."
+      <br />
       - Bob Ross
     </blockquote>
 
@@ -104,7 +125,7 @@
       <a href="http://bettermotherfuckingwebsite.com/">with improved css</a>
     </p>
 
-    <!-- GoogleAnalyticsObject minimal configuration if we need -->
+    <!-- GoogleAnalyticsObject minimal configuration if needed -->
     <!-- <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
