@@ -1,5 +1,7 @@
 # semantic-html5-basic-design
 
-Some css rules to improve readability.
+Snippet with some css basic rules to improve readability.
 
-https://stackblitz.com/edit/semantic-html5-basic-design
+Result https://dfa1234.github.io/semantic-html5-basic-design/
+
+Edit https://stackblitz.com/edit/semantic-html5-basic-design
